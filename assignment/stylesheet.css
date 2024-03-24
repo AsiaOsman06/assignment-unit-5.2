@@ -8,4 +8,14 @@ main {
    background-color: lightgray;
    background-image: url("record.png");
    background-repeat: repeat;
+   padding: 1em; /* “em” is relative to the font size of its parent element. “1em” would be the same font size as the parent */
+  margin: auto;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0em;
+
+
 }
